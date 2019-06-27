@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+        <!-- User Css -->
+        <link rel="stylesheet" href="style.css">
+        <title>Phantomhive</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand scroll" href="#top"><h1 style="font-family: 'Monoton', cursive;">Phantomhive</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#top" class="nav-link scroll">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link scroll">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ratings" class="nav-link scroll">Ratings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#connect" class="nav-link scroll">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="top">
+            <!-- Image Carosel -->
+            <div id ="slides" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/background.jpg" class="img-fluid">
+                        <div class="carousel-caption">
+                            <h1 class="display-1 animated bounceInDown">Hello, world!</h1>
+                            <h3 class="animated bounceInRight">Welcome to phantomhive's life. </h3>
+                        </div>
+                    </div>
+
+                    <!--<div class="carousel-item">
+                        <img src="img/background2.png" class="img-fluid">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <!-- Information Section -->
+            <div class="container-fluid">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">About Me</h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="container-fluid">
+                        <div class="text-center">
+                            <div class="zoom overlay">
+                                <img src="img/profile.jpg" alt="" class="img-fluid rounded-circle hoverable padding"
+                                    width ="300px" height = "300px">
+                            </div>
+                            <h3> Atul Kumar Khetan</h4>
+                            <hr>
+                            <p class="lead"><i class="fas fa-quote-left"></i> Your future is created with what you do today <strike>not tomorrow</strike>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Two column section-->
+                <div class="container-fluid">
+                    <div class="row padding" style="padding-top: 70px;">
+                        <div class="col-md-12 col-lg-6">
+                            <p class="lead">
+                                from sys import stdout<br>
+                                stdout.write(' Hello, Wordl! ')
+                            </p>
+                            <p class="lead" align="justify">
+                                I am Atul Kumar Khetan a.k.a 'phantomhive', i am currently working as a Consultant Trainee in a startup <strong>MTX Group</strong>. I love solving algorithmic problems and designing efficient solution. O(1) is always better and python <i class="fab fa-python"></i> is <i class="fas fa-heart"></i>. 
+                            </p>
+                            <p class="lead" align="justify">
+                                Looking forward for interviews and work with awesome people. Check out my resume below <i class="fas fa-level-down-alt"></i>. Thanks for visiting folks.<br>stdout.write(" Stay awesome! <i class="far fa-smile-wink"></i>")
+                            </p>
+                            <a href="https://www.dropbox.com/s/8dt4gbl1om7txdn/Atul%27s%20Resume.pdf?dl=0" target="_blank"><i class="fas fa-download"></i></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="https://qph.fs.quoracdn.net/main-qimg-eb404726133d268b649c5d077ab6e860.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <section id="ratings">
+            <!--Three column section -->
+            <div class="container-fluid">
+                <div class="row text-center padding">
+                        <div class="col-xs-12 col-sm-6 col-md-4 hoverable">
+                            <a href="https://www.codechef.com/users/phantomhive" target="_blank">
+                                <img src="img/codechef.jpg" alt="" class="img-fluid" width="200px" height="200px">
+                            </a>
+                            <h2>CodeChef</h3>
+                            <p class="lead">Highest Rating 1949</p>
+                        </div>
+    
+                    <div class="col-xs-12 col-sm-6 col-md-4 hoverable">
+                        <a href="https://www.hackerearth.com/@phantomhive" target="_blank">
+                            <img src="img/hackerearth.png" alt="" class="img-fluid" width="200px" height="200px">
+                        </a>
+                        <h3>HackerEarth</h3>
+                        <p class="lead">Highest Rating 1529</p>
+                    </div>
+    
+                    <div class="col-sm-12 col-md-4 hoverable">
+                        <a href="https://codeforces.com/profile/phantomhive" target="_blank">
+                            <img src="img/codeforces.png" alt="" class="img-fluid" width="200px" height="200px">
+                        </a>
+                        <h3>CodeForces</h3>
+                        <p class="lead">Highest Rating 1551</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <!-- Fixed image-->
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed"></div>
+            </div>
+        </figure>
+        <hr>
+        <section id="connect">
+            <!-- Connect -->
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-12">
+                        <h1>Connect</h1>
+                    </div>
+                    <div class="col-12 social padding">
+                        <a href="https://www.facebook.com/undeadatul" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://github.com/phantomhieve" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/phantomhieve_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/atul-khetan-08a82189/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Footer -->
+            <footer class="page-footer font-small special-color-dark pt-4">
+                <div class="container-fluid padding">
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <h2 style="font-family: 'Monoton', cursive;">Phantomhive</h2>
+                            <h4><a href="mailto:khetanatulz@gmail.com" target="_top">khetanatulz@gmail.com</a></h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 style="margin-top: 1.7rem;">Made with love.</h4>        
+                        </div>
+                        <div class="col-12">
+                            <hr class="light">
+                            <h5>&copy Phantomhive</h5>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </body>
+    <!-- Java Script libraries-->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+    <!-- User Js-->
+    <script type="text/javascript" src="script.js"></script>
+</html>
