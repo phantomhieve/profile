@@ -39,7 +39,6 @@ html, body {
 }
 .social a {
     font-size: 4.5em;
-    padding: 3rem;
 }
 .fa-facebook-f {
     color: #3b5998;
@@ -84,6 +83,9 @@ footer hr{
 section {
     padding-top: 90px;
 }
+.heading {
+    font-size: 55px;
+}
 
 
 /*---Media Queries --*/
@@ -102,18 +104,37 @@ section {
     .carousel-caption h3{
         font-size: 25px;
     }
+    .heading {
+        font-size: 45px;
+    }
 }
 @media (max-width: 576px) {
     .carousel-caption h1{
-        font-size: 60px;
+        font-size: 40px;
     }
     .carousel-caption h3{
-        font-size: 20px;
+        font-size: 15px;
     }
-    .display-4 {
-        font-size: 45px;
+    .navbar-brand h1{
+        font-size: 30px;
     }
-
+    .heading {
+        font-size: 35px;
+    }
+    .fa-download {
+        font-size: 2.7em !important;
+        padding: 1rem;
+        color: #212121;
+    }
+    .social a {
+        font-size: 3.5em;
+    }
+    footer h2{
+        font-size: 35px;
+    }
+    footer h4{
+        font-size: 22px;
+    }
 }
 /*---Firefox Bug Fix --*/
 .carousel-item {
