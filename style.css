@@ -130,10 +130,13 @@ section {
         font-size: 3.5em;
     }
     footer h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     footer h4{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    section {
+        padding-top: 75px;
     }
 }
 /*---Firefox Bug Fix --*/
