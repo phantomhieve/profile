@@ -671,6 +671,7 @@ function initTerminalEmulator() {
   <span style="color: #34d399">terraform</span>     - Run simulated Infrastructure as Code state query
   <span style="color: #34d399">skills</span>        - Show production technology stack & mastery breakdown
   <span style="color: #34d399">experience</span>    - Career trajectory (Uber L5, Sprinklr Lead, MavQ Senior)
+  <span style="color: #34d399">projects</span>      - Homelab systems, quant finance pipelines, & AI agents
   <span style="color: #34d399">ratings</span>       - Algorithmic foundations and problem solving track record
   <span style="color: #34d399">contact</span>       - Direct communication channels & links
   <span style="color: #34d399">matrix</span>        - Trigger digital rain matrix simulation
@@ -763,6 +764,28 @@ All infrastructure resources match desired GitOps state. Zero configuration drif
 
 <span style="color: #c084fc">3. MavQ Inc. / MTX Group (Jul 2019 – Mar 2025)</span>
    Senior DevOps Engineer | FedRAMP/NIST 800-53 Compliance, $500K/yr FinOps Savings, DR Failover
+`;
+        break;
+
+      case 'projects':
+      case 'homelab':
+        outputEl.innerHTML = `
+<span style="color: #38bdf8">HOMELAB & FINANCIAL ENGINEERING SYSTEMS:</span>
+
+• <span style="color: #38bdf8">Vault (Finance Hub)</span> — Self-Hosted Wealth & MCP Platform
+  Multi-asset portfolio & Indian FY tax intelligence platform (Zerodha, US RSUs, EPF/NPS, Real Estate).
+  Stack: ASGI Django, Model Context Protocol (/mcp), WebAuthn, AI DAG tax-harvesting engine.
+  Repo: <a href="https://github.com/phantomhieve/finance" target="_blank" style="color: #34d399">github.com/phantomhieve/finance</a>
+
+• <span style="color: #34d399">Kites Automate</span> — Headless Brokerage Sync Daemon
+  Unattended daemon on 'phantomhive' Ubuntu server. Headless Chromium + TOTP token renewal,
+  syncs multi-account holdings to Google Sheets with Prometheus node_exporter metrics.
+  Repo: <a href="https://github.com/phantomhieve/kites-portfolio-automate" target="_blank" style="color: #34d399">github.com/phantomhieve/kites-portfolio-automate</a>
+
+• <span style="color: #c084fc">CashCenter</span> — Wholesale Ledger & AI DAG Engine
+  Operational ledger & 5-node AI DAG market intelligence for wholesale merchants.
+  Generates bilingual (EN/HI) working-capital briefs; automated SSH & systemd pipelines.
+  Repo: <a href="https://github.com/phantomhieve/cashcenter" target="_blank" style="color: #34d399">github.com/phantomhieve/cashcenter</a>
 `;
         break;
 
